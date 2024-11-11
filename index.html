@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gedeonmandjuandja.com</title>
+    <link rel="stylesheet" href="design/css/bootstrap.min.css">
+    <link rel="stylesheet" href="design/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="design/css/aos.css">
+    <link rel="stylesheet" href="design/mon-style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu">
+    <div id="acceuil"></div>
+    <header class="p-5">
+        <div class="row align-items-center text-center gy-5" >
+            <div class="col-md-6 col-12"  >
+                <h1 class="text-primary ">Gédéon Mandjuandja</h1>
+                <h5 class="fw-500">Je suis un développeur web</h5>
+                <div class="d-flex justify-content-center gap-3 mt-3">
+                    <div class="res">
+                        <a href="https://www.linkedin.com/in/gedeonmandjuandja" target="_blank" ><img src="design/img/reseaux/linkedin.svg" alt=""></a>
+                    </div>
+                    <div class="res">
+                        <a href="https://www.instagram.com/gedeonmdev" target="_blank" ><img src="design/img/reseaux/instagram.svg" alt=""></a>
+                    </div>
+                    <!-- <div class="res">    
+                        <a href="#" ><img src="design/img/reseaux/twitter-x.svg" alt=""></a>
+                    </div> -->
+                </div>  
+            </div>
+            <div class="col-md-3 col-sm-8 offset-sm-2 offset-md-1 col" >
+                <img src="design/img/features-2.png" class="w-100" alt="">
+            </div>
+        </div>
+    </header>
+    
+    <nav id="menu" class="navbar position-sticky top-0 navbar-dark bg-dark py-1  navbar-expand-md" style="z-index: 100">
+        <div class="container">
+            <div class="navbar-brand res p-4">
+                <img src="design/img/deon.png" height="30px" alt="">
+            </div>
+            <!-- Le bouton s'affichera en petit écran -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#monMenuDeroulant">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+     
+            <div class="collapse navbar-collapse ms-5" id="monMenuDeroulant">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#acceuil" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#apropos" class="nav-link">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#realisations" class="nav-link">Réalisations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <!-- Créer un carousel -->
+    <!-- carousel-fade-->
+    <div  id="monPetitCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <!-- Idicateurs -->
+        <ul class="carousel-indicators">
+            <li data-bs-target="#monPetitCarousel" data-bs-slide-to="0" class="active border" style="width: 12px; height: 12px; border-radius: 10px;"></li>
+            <li data-bs-target="#monPetitCarousel" data-bs-slide-to="1" class="border"  style="width: 12px; height: 12px; border-radius: 10px;"></li>
+        </ul>
+
+        <!-- Contenu du carousel -->
+         <div class="carousel-inner">
+
+            <!-- Première slide -->
+             <div class="carousel-item active">
+                <img src="design/img/carrosel (2).jpg" alt="" class="w-100 d-block h">
+             </div>
+
+            <!-- Deuxième slide -->
+            <div class="carousel-item">
+                <img src="design/img/cover.jpg" alt="" class="w-100 d-block h">
+                <div class="carousel-caption">
+                    <h5>Transformons votre vision en réalité numérique</h5>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-control-prev" href="#monPetitCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Précédent</span>
+        </div>
+        <div class="carousel-control-next" href="#monPetitCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Précédent</span>
+        </div>
+    </div>
+
+    <div id="apropos" class="text-white">A propos</div>
+    <div data-aos="fade-up" data-aos-delay="100" >
+        <p class="h3 text-primary text-center mt-4"> A propos</p>
+        <p class="px-4">
+            Je suis un développeur web, mobile et bureau full-stuck, actuellement étudiant 
+            en troisième année d'informatique de gestion à l'institut supérieur d'informatique, programmation et analyse, en sigle L'ISIPA. Ma 
+            spécialité réside dans la création d'applications web, mobile et bureau dynamiques 
+            et réactives en utilisant des technologies modernes telles que HTML, 
+            CSS, Django, MySQL, Bootstrap, Python, Kivy. 
+
+            J'aime concevoir des interfaces utilisateurs intuitives et esthétiques, 
+            et j'utilise Adobe XD pour donner vie à mes idées de design. 
+
+            Mon objectif est de fournier des solution web robustes qui répondent 
+            aux besoins des utilisateurs, tout en garantissant une expérience fluide 
+            et agréable. Je comprends l'importance d'une communication claire et 
+            efficace pour répondre aux attentes de mes clients.
+
+        </p>
+    </div>
+
+    <!--Les fils d'ariana-->
+
+    <nav class="m-4 bread-bg p-2  rounded-3">
+        <ul class="breadcrumb m-0">
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none" href="#acceuil">Accueil</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none text-dark" href="#apropos">A propos</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="p-3" data-aos="fade-up">
+        <div class="row ">
+            <div class="col-md-3 col-9 offset-2 offset-md-0" data-aos="fade-up" data-aos-delay="100">
+                <img src="design/img/profil.png" class="w-100" alt="">
+            </div>
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="200">
+                <div class="row" >
+                    <div class="col-md-5  text-center">
+                        <h3 class="text-primary">Gedeon Mandjuandja</h3>
+                        <h6 class="fw-500">Je suis un développeur web</h6>
+                        <a href="#contact" class="btn rounded-pill  btn-outline-primary w-100 py-1 mt-1">Me contacter</a>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-center ">
+                                <img src="design/img/chevron-right.svg" alt="">
+                                <div><b>Prénom </b>: Gédéon</div>
+                            </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="design/img/chevron-right.svg" alt="">
+                                <div><b>Nom </b>: Mandjuandja</div>
+                            </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="design/img/chevron-right.svg" alt="">
+                                <div><b>Postnom </b>: Inyomo</div>
+                            </div>
+                            <div class="d-flex align-items-center my-3">
+                                <img src="design/img/chevron-right.svg" alt="">
+                                <div><b>Niveau d'étude </b>: Licencié</div>
+                            </div>
+                            <div class="d-flex align-items-center my-3">
+                                <img src="design/img/chevron-right.svg" alt="">
+                                <div><b>Langue </b>: Français et anglais</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="d-flex align-items-center ">
+                                <img src="design/img/chevron-right.svg" alt="">
+                                <div><b>Tél </b>: +243 998 717 825</div>
+                            </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="design/img/chevron-right.svg" alt="">
+                                <div><b>E-mail </b>: gedeonmandjuandja@gmail.com</div>
+                            </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="design/img/chevron-right.svg" alt="">
+                                <div><b>Date de naissance </b>: 26 janvier 2024</div>
+                            </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="design/img/chevron-right.svg" alt="">
+                                <div><b>Ville </b>: Kinshasa</div>
+                            </div>
+                        </div>  
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="p-4" data-aos="fade-up" data-aos-delay="100">
+        <h5 class="text-primary mb-3">MES COMPTENCES</h5>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="progress rounded-pill">
+                    <div class="progress-bar  bg-primary progress-bar-striped progress-bar-animated rounded-pill" style="width: 92%;">
+                        <span>Python 92%</span> 
+                    </div>
+                </div>
+                <div class="progress rounded-pill mt-4">
+                    <div class="progress-bar  bg-primary progress-bar-striped progress-bar-animated rounded-pill" style="width: 68%;">
+                        <span>Kivy 68%</span> 
+                    </div>
+                </div>
+                <div class="progress rounded-pill mt-4">
+                    <div class="progress-bar  bg-primary  progress-bar-striped progress-bar-animated rounded-pill" style="width: 65%;">
+                        <span>Sql 65%</span> 
+                    </div>
+                </div>
+                <div class="progress rounded-pill mt-4">
+                    <div class="progress-bar  bg-primary  progress-bar-striped progress-bar-animated rounded-pill" style="width: 68%;">
+                        <span>Django 68%</span> 
+                    </div>
+                </div>
+                <div class="progress rounded-pill my-4">
+                    <div class="progress-bar  bg-primary  progress-bar-striped progress-bar-animated rounded-pill" style="width: 61%;">
+                        <span>Bureautique 61%</span> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="progress rounded-pill">
+                    <div class="progress-bar  bg-primary  progress-bar-striped progress-bar-animated rounded-pill" style="width: 93%;">
+                        <span>HTML 93%</span> 
+                    </div>
+                </div>
+                <div class="progress rounded-pill mt-4 ">
+                    <div class="progress-bar  bg-primary  progress-bar-striped progress-bar-animated rounded-pill" style="width: 73%;">
+                        <span>CSS 73%</span> 
+                    </div>
+                </div>
+                <div class="progress rounded-pill mt-4">
+                    <div class="progress-bar  bg-primary  progress-bar-striped progress-bar-animated rounded-pill" style="width: 97%;">
+                        <span>Bootstrap 97%</span> 
+                    </div>
+                </div>
+                <div class="progress rounded-pill mt-4">
+                    <div class="progress-bar  bg-primary  progress-bar-striped progress-bar-animated rounded-pill" style="width: 61%;">
+                        <span>Adobe XD 61%</span> 
+                    </div>
+                </div>
+                <div class="progress rounded-pill mt-4">
+                    <div class="progress-bar  bg-primary  progress-bar-striped progress-bar-animated rounded-pill" style="width: 51%;">
+                        <span>Adobe Photoshop 51%</span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services" class="text-white">services</div>
+    <div data-aos="fade-up" data-aos-delay="100">
+        <p class="h3 text-primary text-center  mt-4">Services</p>
+        <p class="px-4">
+            Je propose une gamme complète de services, 
+            allant du Développement de sites web dynamiques et adaptifs à la 
+            création d'applications mobiles, bureaux sur mesure, sans oublier 
+            la conception d'interfaces utilisateur captivantes avec Adobe XD. 
+            Chaque projet est avordé avec une attention particulière aux détails 
+            et une volonte de répondre aux spécifités de chaque client, garantissant 
+            ainsi des résultats qui non seulement répondent aux exigences techniques, 
+            mais qui apportent également une réelle valeur ajoutée. Mon approche 
+            personnalisée me permet de m'adapter aux besoins uniques de chaque 
+            client, tout en intégrant les meilleures pratiques du secteur.
+            
+        </p>
+    </div>
+    <nav class="m-4 bread-bg p-2  rounded-3">
+        <ul class="breadcrumb m-0">
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none" href="#acceuil">Accueil</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none" href="#apropos">A propos</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none text-dark" href="#services">Services</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="p-4">
+        <div class="row g-3">
+            <div class="col-lg-4 col-md-6 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="card btn-outline-dark shadow">
+                    <div class="card-body py-5">
+                        <div class="text-center">
+                            <img src="design/img/features-3.png"  width="80px" alt="">
+                        </div>
+                        <h5 class="text-center">Développement mobile</h5>
+                        <p>
+                            Je maîtrise un ensemble de technologies essentielles 
+                            pour le développement mobile, notamment <b>Kivy</b>, <b>Python</b>, 
+                            , ainsi que <b>MySQL</b> pour la gestion 
+                            des bases de données. 
+                        </p>
+                        <div class="d-flex justify-content-center gap-2">
+                            <img src="design/img/kivy.1024x1024.png" width="30px"  alt="">
+                            <img src="design/img/mysql.png" width="30px" alt="">
+                            <img src="design/img/4518857_python_icon.png" width="30px" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="card btn-outline-dark shadow">
+                    <div class="card-body text-start py-5">
+                        <div class="text-center">
+                            <img src="design/img/features.png"  width="135px" alt="">
+                        </div>
+                        <h5 class="text-center">Développement web</h5>
+                        <p>
+                            Je maîtrise un ensemble de technologies essentielles 
+                            pour le développement web, notamment <b>HTML</b>, <b>CSS</b>, 
+                            <b>Django</b>, <b>Bootstrap</b>, ainsi que <b>MySQL</b> pour la gestion 
+                            des bases de données. 
+                        </p>
+                        <div class="d-flex justify-content-center gap-2">
+                            <img src="design/img/html.png" width="30px"  alt="">
+                            <img src="design/img/css-3.png" width="30px" alt="">
+                            <img src="design/img/bootstrap.png" width="30px" alt="">
+                            <img src="design/img/django-icon-svgrepo-com.svg" width="30px" alt="">
+                            <img src="design/img/mysql.png" width="30px" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="card btn-outline-dark shadow">
+                    <div class="card-body text-start py-5">
+                        <div class="text-center">
+                            <img src="design/img/hero-img.png"  width="105px" alt="">
+                        </div>
+                        <h5 class="text-center">Développement bureau</h5>
+                        <p>
+                            Je maîtrise un ensemble de technologies essentielles 
+                            pour le développement web, notamment <b>HTML</b>, <b>CSS</b>, 
+                            <b>Django</b>, <b>Bootstrap</b>, ainsi que <b>MySQL</b> pour la gestion 
+                            des bases de données. 
+                        </p>
+                        <div class="d-flex justify-content-center gap-2">
+                            <img src="design/img/kivy.1024x1024.png" width="30px"  alt="">
+                            <img src="design/img/mysql.png" width="30px" alt="">
+                            <img src="design/img/4518857_python_icon.png" width="30px" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="card btn-outline-dark shadow">
+                    <div class="card-body text-start py-5">
+                        <div class="text-center">
+                            <img src="design/img/features-2.png"  width="120px" alt="">
+                        </div>
+                        <h5 class="text-center">Web design</h5>
+                        <p>
+                            Je suis compétent en design graphique, utilisant <b>Adobe XD</b> pour 
+                            créer des interfaces utilisateur intuitives et des prototypes interactifs, 
+                            et <b>Photoshop</b> pour la création 
+                            d'éléments visuels. 
+                        </p>
+                        <div class="d-flex justify-content-center gap-2">
+                            <img src="design/img/xd.png" width="30px"  alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    <div data-aos="fade-up" data-aos-delay="100">
+        <div class="alert alert-primary py-5 mt-4" >
+            <h3 class="alert-heading text-center">Pourquoi me choisir ?</h3>
+            <p>
+                En tant que développeur passionné et polyvalent, je maîtrise 
+                des technologies essentielles telles que HTML, CSS, Django et 
+                Bootstrap, ce qui me permet de créer des applications web dynamiques 
+                et performantes ; je m'engage à comprendre vos besoins spécifiques 
+                et à concevoir des solutions personnalisées qui répondent 
+                parfaitement à vos objectifs, tout en mettant en avant l'esprit 
+                d'équipe que j'ai cultivé au sein des agences Espoir Développement 
+                et Ksoldy, où je collabore étroitement avec mes partenaires pour 
+                garantir un travail de haute qualité, à la fois esthétique et intuitif, 
+                réalisé grâce à des outils de conception comme Adobe XD, le tout avec 
+                une volonté d'apprentissage continu pour rester à la pointe des dernières 
+                tendances et technologies, afin de vous offrir une satisfaction client inégalée.
+            
+                <a href="https://github.com/GMDesk" class="alert-link">Découvrir mon github </a>
+            </p>
+            <div class="text-center">
+                <div class="btn-group ">
+                    <a href="design/doc/Gedeonmandjuandja.pdf" download="Gedeonmandjuandja.pdf" class="btn btn-info">Mon CV</a>
+                    <a href="#contact" class="btn btn-primary">Prendre rendez-vous</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="realisations" class="text-white">Réalisations</div>
+    <div data-aos="fade-up" data-aos-delay="100">
+        <p class="h3 text-primary text-center mt-4">Réalisations</p>
+        <p class="px-4">
+            Je suis ravi de partager avec vous une sélection de mes projets, 
+            qui illustrent mon parcours en tant que développeur et designer. 
+            Chacun de ces travaux témoigne de ma passion pour la création de 
+            solutions innovantes, alliant esthétique et fonctionnalité. Que ce 
+            soit à travers des applications web dynamiques ou des designs intuitifs, 
+            chaque projet a été conçu avec soin pour répondre aux besoins spécifiques 
+            de mes clients. J'espère que ces exemples vous inspireront et vous donneront 
+            un aperçu de ce que je peux apporter à notre collaboration.
+        </p>
+    </div>
+    <nav class="m-4 bread-bg p-2  rounded-3">
+        <ul class="breadcrumb m-0">
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none" href="#acceuil">Accueil</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none" href="#apropos">A propos</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none" href="#services">Services</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none text-dark" href="#realisations">Réalisations</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="text-center">
+            <button type="button" class="btn btn-sm btn-outline-secondary py-1 rounded-pill" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Fonctionnalité pas encore disponible dans ce site">Tout</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary py-1 rounded-pill" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Fonctionnalité pas encore disponible dans ce site">Site web</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary py-1 rounded-pill" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Fonctionnalité pas encore disponible dans ce site">App mobile</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary py-1 rounded-pill" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Fonctionnalité pas encore disponible dans ce site">App bureau</button>
+        </div>
+    </div>
+
+    <div class="py-4 container-md">
+        <div class="row g-3">
+            <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="card">
+                    <!-- Image d'illustration -->
+                    <img src="design/img/project_portefolio.png"
+                        class="card-img-top" alt="Montagnes">
+                 
+                    <!-- En-tête de la carte -->
+                    <div class="card-header py-1">
+                        Site Web
+                    </div>
+                 
+                    <!-- Corps -->
+                    <div class="card-body">
+                        <h5 class="card-title">Mon portefolio</h5>
+                        <p class="card-subtitle text-muted">Projet personnel</p>
+                        <button type="button" class="btn mt-2 btn-primary w-100" data-bs-toggle="modal" data-bs-target="#portefolio" class="">Description</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="card">
+                    <!-- Image d'illustration -->
+                    <img src="design/img/project_eleaning.png"
+                        class="card-img-top" alt="Montagnes">
+                 
+                    <!-- En-tête de la carte -->
+                    <div class="card-header py-1">
+                        Site Web
+                    </div>
+                 
+                    <!-- Corps -->
+                    <div class="card-body">
+                        <h5 class="card-title">Tanga Plus</h5>
+                        <p class="card-subtitle text-muted">Projet en groupe</p>
+                        <button type="button" class="btn mt-2 btn-primary w-100" data-bs-toggle="modal" data-bs-target="#tangaplus" class="">Description</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="card">
+                    <!-- Image d'illustration -->
+                    <img src="design/img/project_bbm.jpg"
+                        class="card-img-top" alt="Montagnes">
+                 
+                    <!-- En-tête de la carte -->
+                    <div class="card-header py-1">
+                        Site Web
+                    </div>
+                 
+                    <!-- Corps -->
+                    <div class="card-body">
+                        <h5 class="card-title">BBM</h5>
+                        <p class="card-subtitle text-muted">Projet acadénimique </p>
+                        <button type="button" class="btn mt-2 btn-primary w-100" data-bs-toggle="modal" data-bs-target="#bbm" class="">Description</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="card">
+                    <!-- Image d'illustration -->
+                    <img src="design/img/project_pizzamama.jpg"
+                        class="card-img-top" alt="Montagnes">
+                 
+                    <!-- En-tête de la carte -->
+                    <div class="card-header py-1">
+                        Site Web
+                    </div>
+                 
+                    <!-- Corps -->
+                    <div class="card-body">
+                        <h5 class="card-title">Pizzamama</h5>
+                        <p class="card-subtitle text-muted">Projet personnel</p>   
+                        <button type="button" class="btn mt-2 btn-primary w-100" data-bs-toggle="modal" data-bs-target="#pizzamama" class="">Description</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="card">
+                    <!-- Image d'illustration -->
+                    <img src="design/img/project_ai.jpg"
+                        class="card-img-top" alt="Montagnes">
+                 
+                    <!-- En-tête de la carte -->
+                    <div class="card-header py-1">
+                        Application mobile
+                    </div>
+                 
+                    <!-- Corps -->
+                    <div class="card-body">
+                        <h5 class="card-title">Intelligence artificielle</h5>
+                        <p class="card-subtitle text-muted">Projet personnel</p>    
+                        <button type="button" class="btn mt-2 btn-primary w-100" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Projet en cours de développement : restez connectés pour les mises a jour !">Description</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+     
+    <div class="modal fade" id="portefolio">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+     
+                <!-- Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title">Mon portefolio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <!--<span>&times;</span>-->
+                    </button>
+                </div>
+     
+                <!-- Body -->
+                <div class="modal-body">
+                    <p class="m-0"> 
+                        L'une de mes réalisations les plus significatives. Ce projet 
+                        représente le fruit de ma passion pour le développement et le design, 
+                        mettant en avant une sélection de travaux qui illustrent ma capacité à 
+                        transformer des idées en solutions concrètes et fonctionnelles. Chaque 
+                        projet y est présenté avec soin, reflétant mon attention aux détails et mon 
+                        engagement envers l'excellence. J'espère que vous trouverez ici une source 
+                        d'inspiration et un aperçu de mon approche créative. 
+                    </p>
+                </div>
+     
+                <!-- Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Fermer</button>
+                    <a href="index.html" class="btn btn-primary">Visitez le site</a>
+                </div>
+     
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="tangaplus">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+     
+                <!-- Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title">tanga Plus</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <!--<span>&times;</span>-->
+                    </button>
+                </div>
+     
+                <!-- Body -->
+                <div class="modal-body">
+                    <p class="m-0">
+                        Développement en groupe d'un site web d'e-learning conçu 
+                        pour aider les développers à accéder rapidement à des 
+                        solutions et ressources. Le site offre une interface intuitive 
+                        et réactive, intégrant des fonctionnalités telles ques des tutoriels, 
+                        des forums de discussion et des exercices pratiques. Les technologies 
+                        utilisées incluent HTML, CSS, Bootstrap pour le design. Le project est 
+                        hébérgé sur GitHub, favorisant la collaboration et le suivi des contributions. 
+                        Ce projet, visionné par Salomon VEKOY, vise à faciter l'apprentissage et à 
+                        encourager la collaboration entre développeurs.
+                    </p>
+                </div>
+     
+                <!-- Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Fermer</button>
+                    <a href="#tangaplus" class="btn btn-primary" class="btn mt-2 btn-primary w-100" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Projet en cours de développement : restez connectés pour les mises a jour !">Visitez le site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bbm">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+     
+                <!-- Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title">BBM</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <!--<span>&times;</span>-->
+                    </button>
+                </div>
+     
+                <!-- Body -->
+                <div class="modal-body">
+                    <p class="m-0">
+                        Développement en groupe d'un site web pour une entreprise 
+                        spécialisée dans la Fabrication et la vente de Meubles. 
+                        Ce projet universitaire, réalisé avec mes coéquipiers, 
+                        <b>Horeb, Salomon, Diego, Jenovie, Ayol, Marie, Rachel et Robert</b>, 
+                        vise à offrir une plateforme conviviale pour présenter les produits 
+                        et faciliter les commandes en ligne dans l'entreprise nommé BBM. 
+                        Technologies utilisées incluent HTML, CSS, Bootstrap pour le design, 
+                        et PHP pour la gestion des fonctionnalités, Le site est hébergé sur 
+                        Heroku, permetant un accès facile et une maintenance simplifiée. Ce 
+                        projet met en avant notre capacité à collaborer efficacement tout en 
+                        créant une solution pratique pour les clients
+                    </p>
+                </div>
+     
+                <!-- Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Fermer</button>
+                    <a href="#tangaplus" class="btn btn-primary" class="btn mt-2 btn-primary w-100" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Projet en cours de développement : restez connectés pour les mises a jour !">Visitez le site</a>
+                </div>
+     
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pizzamama">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+     
+                <!-- Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title">Pizzamama</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <!--<span>&times;</span>-->
+                    </button>
+                </div>
+     
+                <!-- Body -->
+                <div class="modal-body">
+                    <p class="m-0">
+                        Création d'un site web pour un restaurant dans le cadre de la 
+                        formation en ligne "Développeur Python | Cours Complet 2024" sur 
+                        Udemy, dispensée par Jonathon Roux. Ce projet vise à fournir une 
+                        plateforme conviviale où les clients peuvent consulter le menu, 
+                        passer des commandes en ligne et réserver des tables. Les technologies 
+                        utilisées incluent HTML, CSS, Django pour la réalisation, et PythonAnywhere 
+                        pour l'hébergement. Ce projet démontre mon aptitude à appliquer les compétences 
+                        acquises lors de la formation pour créer une solution efficace et esthétique dans 
+                        le secteur de la restauration
+                    </p>
+                </div>
+     
+                <!-- Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Fermer</button>
+                    <a href="https://gedeonmandjuandja.pythonanywhere.com" class="btn btn-primary">Visitez le site</a>
+                </div>
+     
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="modal fade" id="ai">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+     
+                Header 
+                <div class="modal-header">
+                    <h5 class="modal-title">Intelligence artificielle</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        
+                    </button>
+                </div>
+     
+                
+                <div class="modal-body">
+                    <p class="m-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Neque nobis ex fugiat quis minima molestias ea, consequatur 
+                        error consequuntur quisquam amet dignissimos voluptates, autem 
+                        odio mollitia quo ullam? Aperiam dolor quis necessitatibus fugiat 
+                        reprehenderit quia accusantium perspiciatis? Doloribus error quas, 
+                        harum exercitationem maiores fugiat voluptatum? Accusantium aliquid 
+                        ipsum tempora officiis nihil vel ea. Dolorum labore consequuntur nostrum 
+                        eligendi harum est dolore adipisci, optio tempora repellat nam sunt? 
+                        Quidem atque accusantium illo esse id nihil, quod excepturi modi veritatis 
+                        repudiandae ut!
+                    </p>
+                </div> -->
+     
+                <!-- Footer 
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Fermer</button>
+                    <a href="#tangaplus" class="btn btn-primary">Visitez le site</a>
+                </div>
+     
+            </div>
+        </div>
+    </div>-->
+
+    <div id="contact" class="text-white">contact</div>
+    <div data-aos="fade-up" data-aos-delay="100">
+        <p class="h3 text-primary text-center mt-4">Contact</p>
+        <p class="px-4">
+            Merci d'avoir pris le temps de découvrir mon travail. Si vous 
+            souhaitez discuter de projets, poser des questions ou simplement 
+            échanger des idées, n'hésitez pas à me contacter. Je serais ravi 
+            de collaborer avec vous et d'explorer de nouvelles opportunités 
+            ensemble. Votre retour est précieux, et j'attends avec impatience 
+            de vos nouvelles ! 
+        </p>
+    </div>
+
+    <nav class="m-4 bread-bg p-2  rounded-3">
+        <ul class="breadcrumb m-0">
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none" href="#">Accueil</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none" href="#">A propos</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none" href="#">Services</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none" href="#">Réalisations</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="text-decoration-none text-dark" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="container p-4 mt-3">
+        <div class="row g-5">
+            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="d-flex align-items-center gap-2">
+                    <div class="res bg-primary">
+                        <img src="design/img/icon/geo.svg" alt="">
+                    </div>
+                    <div>
+                        <h6 class="m-0">Adresse</h6>
+                        <p class="m-0" style="max-width: 250px">
+                            Av: Mbimba 27, Q: Salongo, C: limete ville de Kinshasa 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+           <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="d-flex align-items-center gap-2">
+                    <div class="res bg-primary">
+                        <img src="design/img/icon/envelope.svg" alt="">
+                    </div>
+                    <div>
+                        <h6 class="m-0">E-mail</h6>
+                        <p class="m-0">
+                            gedeonmandjuandja@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="d-flex align-items-center gap-2">
+                    <div class="res bg-primary">
+                        <img src="design/img/icon/link.svg" alt="">
+                    </div>
+                    <div>
+                        <h6 class="m-0">Réseaux sociaux</h6>
+                        <div class="d-flex justify-content-center gap-4">
+                            <div class="">
+                                <a href="#" class="hover-primary"><img src="design/img/reseaux/linkedin.svg" alt=""></a>
+                            </div>
+                            <div class="">
+                                <a href="#" ><img src="design/img/reseaux/instagram.svg" alt=""></a>
+                            </div>
+                            <div class="">    
+                                <a href="#" ><img src="design/img/reseaux/twitter-x.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="d-flex align-items-center gap-2">
+                    <div class="res bg-primary">
+                        <img src="design/img/icon/telephone.svg" alt="">
+                    </div>
+                    <div>
+                        <h6 class="m-0">Téléphone</h6>
+                        <p class="m-0">
+                            +243 998 717 825
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="container">
+        
+        <div class="row gy-3">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="100">
+                <div>
+                    <form action="">
+                        <div class="row gx-3 ">
+                            <div class="col-sm-6">
+                                <p>                   
+                                    <input type="text" name="nom" id="nom" placeholder="Entrer votre nom" class="form-control rounded-pill">
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p>                       
+                                    <input type="email" name="email" id="email" placeholder="Entrer votre adresse e-mail" class="form-control rounded-pill">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    <input type="text" name="sujet" id="sujet" placeholder="Sujet" class="form-control rounded-pill">
+                                </p>
+                            </div>
+                        </div>  
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    <textarea name="message" id="message" placeholder="Entrer le message" class="form-control" style="border-radius: 20px;" rows="5"></textarea>
+                                </p>
+                            </div>
+                        </div>        
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary rounded-pill w-100 px-3">Envoyer le message</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </form>
+                </div>
+            </div>
+        
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="alert alert-dark bg-light py-4 border-0" style="border-radius: 20px;">
+                    <h3 class="alert-heading text-center">Actualités</h3>
+                    <p>
+                        Restez informé des dernières nouvelles et mises à jour
+                        concernant nos projets  et activités !
+                    </p>
+                    <form action="">
+                        <p>                       
+                            <input type="email" name="email" id="email" placeholder="Entrer votre adresse e-mail" class="form-control rounded-pill">
+                        </p>
+                        <div class="w-100">
+                            <button type="button" class="btn btn-primary rounded-pill d-inline-block px-3 w-100">Soumettre</button>
+                        </div>
+                    </form>
+                </div>  
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="alert alert-primary border border-0 mt-5 mb-0">
+        <div class="container py-4">
+            <div class="text-center">
+                <img class="text-center" src="design/img/deon.png" height="50px" alt="">
+            </div>
+            <h3 class="alert-heading text-center pt-3">Gédéon Mandjuandja</h3>
+            <p class="text-center text-dark">
+                Passionné par le développement et le design, je crée des solutions
+                innovantes pour un avenir numérique.   
+            </p>
+            <div class="d-flex justify-content-center gap-3 mt-3">
+                <div class="res">
+                    <a href="#" class="hover-primary"><img src="design/img/reseaux/linkedin.svg" alt=""></a>
+                </div>
+                <div class="res">
+                    <a href="#" ><img src="design/img/reseaux/instagram.svg" alt=""></a>
+                </div>
+                <!-- <div class="res">    
+                    <a href="#" ><img src="design/img/reseaux/twitter-x.svg" alt=""></a>
+                </div> -->
+            </div>
+            <hr>
+            <div class="text-center text-dark">&copy; 2024, Tous droits réservés</div>
+            <div class="text-center text-dark">Design par <span class="text-primary"><b>Gédéon</b></span></div>
+        </div>    
+    </div>
+    <script src="design/js/bootstrap.bundle.min.js"></script>
+    <script src="design/js/aos.js"></script>
+    <script>
+        AOS.init({
+          easing: 'ease-in-out-sine'
+        });
+    </script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+</html>
